@@ -1,0 +1,36 @@
+.msg{
+	display: none;
+}
+
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: 1px solid #ddd;
+    line-height: 1.42857;
+    padding: 3px 8px;
+    vertical-align: middle;
+}
+
+.ms-error {
+	margin-bottom: 10px;
+    margin-top: -10px !important;
+}
+
+/* Errors */
+/* Form validation */
+.parsley-error {
+    border-color: red !important;
+  }
+  .parsley-errors-list {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  .parsley-errors-list.filled {
+    display: block;
+  }
+  .parsley-errors-list > li {
+    font-size: 12px;
+    list-style: none;
+    color: red;
+    margin-top: 5px;
+  }
