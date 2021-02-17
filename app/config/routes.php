@@ -91,6 +91,9 @@ $route['productos/(:any)/(:any)/(:any)'] = '/frontend/products/list_products/$1/
 $route['productos/(:any)/(:any)/(:any)/(:any)'] = '/frontend/products/list_products/$1/$2/$3/$4';
 
 
+$route['contacto'] = '/frontend/contact/index/ ';
+
+
 
 $route['clientes/mi-cuenta'] = '/frontend/customers/account';
 $route['clientes/mis-ordenes'] = '/frontend/customers/orders';
